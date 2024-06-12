@@ -1,0 +1,69 @@
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\bin\Debug\PracticalWork29.exe.config
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\bin\Debug\PracticalWork29.exe
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\bin\Debug\PracticalWork29.pdb
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.csproj.AssemblyReference.cache
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\MainWindow.g.cs
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\App.g.cs
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29_MarkupCompile.cache
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29_MarkupCompile.lref
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\MainWindow.baml
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.g.resources
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.Properties.Resources.resources
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.csproj.GenerateResource.cache
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.csproj.CoreCompileInputs.cache
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.exe
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.pdb
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\Theme\Dark.baml
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\Theme\Light.baml
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\Theme\Blue.baml
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\Theme\Green.baml
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\Theme\Red.baml
+E:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\App.baml
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\bin\Debug\PracticalWork29.exe.config
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\bin\Debug\PracticalWork29.exe
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\bin\Debug\PracticalWork29.pdb
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.csproj.AssemblyReference.cache
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\Theme\Blue.baml
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\Theme\Dark.baml
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\Theme\Green.baml
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\Theme\Light.baml
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\Theme\Red.baml
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\MainWindow.g.cs
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\App.g.cs
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29_MarkupCompile.cache
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29_MarkupCompile.lref
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\App.baml
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\MainWindow.baml
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.g.resources
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.Properties.Resources.resources
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.csproj.GenerateResource.cache
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.csproj.CoreCompileInputs.cache
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.exe
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.pdb
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\CheckBoxes.g.cs
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Практические работы по РПМ\PracticalWork29\PracticalWork29\obj\Debug\CheckBoxes.baml
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\bin\Debug\PracticalWork29.exe.config
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\bin\Debug\PracticalWork29.exe
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\bin\Debug\PracticalWork29.pdb
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\Theme\Blue.baml
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\Theme\Dark.baml
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\Theme\Green.baml
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\Theme\Light.baml
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\Theme\Red.baml
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\CheckBoxes.g.cs
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\MainWindow.g.cs
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\App.g.cs
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29_MarkupCompile.cache
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29_MarkupCompile.lref
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\App.baml
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\CheckBoxes.baml
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\MainWindow.baml
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.g.resources
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.Properties.Resources.resources
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.exe
+C:\Users\admin\Desktop\PracticalWork29\PracticalWork29\obj\Debug\PracticalWork29.pdb

@@ -1,0 +1,202 @@
+﻿<Window x:Class="PracticalWork29.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticalWork29"
+        mc:Ignorable="d"
+        
+        xmlns:usContr="clr-namespace:PracticalWork29"
+
+        
+        Title="Themes" Height="550" Width="950"
+        WindowStartupLocation="CenterScreen" Background="Transparent"
+        WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True">
+    <Window.Resources>
+        
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" StrokeDashArray="1 2" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" SnapsToDevicePixels="true" StrokeThickness="1"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+        <Style x:Key="RoundButton" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border CornerRadius="360" x:Name="border" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="0" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.MouseOver.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.MouseOver.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Pressed.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Pressed.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Margin="7">
+            <Border Background="{DynamicResource Background}" BorderBrush="Black" BorderThickness="5" CornerRadius="25">
+                <StackPanel Margin="5">
+                    <TextBlock Text="Create an account" TextWrapping="Wrap"
+                               FontSize="25" Margin="0,50,0,0" Foreground="{DynamicResource Text}"/>
+                    <TextBlock Text="Create your account. It takes loss that a minute. Enter your email and password" TextWrapping="Wrap"
+                               FontSize="16" Foreground="{DynamicResource SmallText}"/>
+
+                    <Border Background="{DynamicResource Background}" BorderBrush="{DynamicResource SmallText}" BorderThickness="1" CornerRadius="7" Height="40" Margin="0,15,0,0">
+                        <Grid>
+                            <TextBlock x:Name="txtbl1" Foreground="{DynamicResource SmallText}" Text="Email" Background="Transparent" Margin="10,10,10,10"/>
+                            <TextBox x:Name="txtInput1" TextChanged="TextBox_TextChanged" VerticalContentAlignment="Center" FontSize="14" Background="Transparent" BorderThickness="0" Margin="5" Foreground="{DynamicResource Text}"/>
+                        </Grid>
+                    </Border>
+
+                    <Border Background="{DynamicResource Background}" BorderBrush="{DynamicResource SmallText}" BorderThickness="1" CornerRadius="7" Height="40" Margin="0,10,0,0">
+                        <Grid>
+                            <TextBlock x:Name="txtbl2" Foreground="{DynamicResource SmallText}" Text="Password" Background="Transparent" Margin="10,10,10,10"/>
+                            <TextBox x:Name="txtInput2" VerticalContentAlignment="Center" FontSize="14" Background="Transparent" BorderThickness="0" Margin="5" TextChanged="txtInput2_TextChanged" Foreground="{DynamicResource Text}"/>
+                        </Grid>
+                    </Border>
+
+                    <Border Background="{DynamicResource GreenButton}" BorderThickness="0" CornerRadius="10" Height="40" Margin="0,10,0,0">
+                        <Button Background="Transparent" Content="Create an Account" FontSize="16" Foreground="{DynamicResource Text}" BorderThickness="0" FontWeight="Medium" Click="Button_Click_6"/>
+                    </Border>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,10" HorizontalAlignment="Center">
+                        <TextBlock FontSize="14" Text="-------------------------" Foreground="{DynamicResource SmallText}"/>
+                        <TextBlock FontSize="14" Text="or" Foreground="{DynamicResource SmallText}"/>
+                        <TextBlock FontSize="14" Text="-------------------------" Foreground="{DynamicResource SmallText}"/>
+                    </StackPanel>
+
+                    <Border Background="{DynamicResource BlackButton}" BorderThickness="0" CornerRadius="10" Height="40" Margin="0,10,0,0">
+                        <Button Background="Transparent" Content="Continue with Google" FontSize="16" Foreground="{DynamicResource WhiteText}" BorderThickness="0" FontWeight="Medium"/>
+                    </Border>
+                    <Border Background="{DynamicResource BlackButton}" BorderThickness="0" CornerRadius="10" Height="40" Margin="0,7,0,0">
+                        <Button Background="Transparent" Content="Continue with Facebook" FontSize="16" Foreground="{DynamicResource WhiteText}" BorderThickness="0" FontWeight="Medium"/>
+                    </Border>
+                    <Border Background="{DynamicResource BlackButton}" BorderThickness="0" CornerRadius="10" Height="40" Margin="0,7,0,0">
+                        <Button Background="Transparent" Content="Continue with Apple" FontSize="16" Foreground="{DynamicResource WhiteText}" BorderThickness="0" FontWeight="Medium"/>
+                    </Border>
+
+
+                    <StackPanel Orientation="Horizontal" Margin="20" HorizontalAlignment="Center">
+                        <TextBlock FontSize="14" Text="Already have an account?" FontWeight="Medium" Foreground="{DynamicResource Text}"/>
+                        <TextBlock Margin="5,0" FontSize="14" Text="Log in" Foreground="{DynamicResource GreenButton}"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <Grid Grid.Column="1" Margin="7">
+            <Border Background="{DynamicResource Background}" BorderBrush="Black" BorderThickness="5" CornerRadius="25">
+                <StackPanel Margin="5">
+                    <TextBlock x:Name="tre" Text="What do you want to learn?" TextWrapping="Wrap"
+                       FontSize="30" Margin="0,50,0,0" Foreground="{DynamicResource Text}"/>
+                    <TextBlock Text="Select your areas of courses you would like to learn" TextWrapping="Wrap"
+                       FontSize="16" Foreground="{DynamicResource SmallText}"/>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                        <usContr:CheckBoxes SetCat="Illustration"/>
+                        <usContr:CheckBoxes SetCat="Animation"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                        
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                        <usContr:CheckBoxes SetCat="Lifestyle"/>
+                        <usContr:CheckBoxes SetCat="Photography"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                        <usContr:CheckBoxes SetCat="Film n Video"/>
+                        <usContr:CheckBoxes SetCat="Marketing"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                        <usContr:CheckBoxes SetCat="Web Development"/>
+                        <usContr:CheckBoxes SetCat="Music"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                        <usContr:CheckBoxes SetCat="UI Design"/>
+                        <usContr:CheckBoxes SetCat="UX Design"/>
+                    </StackPanel>
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                            <usContr:CheckBoxes SetCat="Business n Management"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                            <usContr:CheckBoxes SetCat="Productivity"/>
+                        </StackPanel>
+                    </StackPanel>
+                    
+
+                    <Border Background="{DynamicResource BlackButton}" BorderThickness="0" CornerRadius="10" Height="40" Margin="0,10,0,0">
+                        <Button Background="Transparent" Content="Continue   --->" FontSize="16" Foreground="{DynamicResource WhiteText}" BorderThickness="0" FontWeight="Medium"/>
+                    </Border>
+
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <Grid Grid.Column="2" Margin="7">
+            <Border Background="{DynamicResource Background}" BorderBrush="Black" BorderThickness="5" CornerRadius="25">
+                <StackPanel Margin="5">
+                    <StackPanel Margin="10">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Button Background="White" Margin="5" Width="70" Height="70" Style="{DynamicResource RoundButton}" Content="Light theme" Click="Button_Click"/>
+                            <Button Background="Black" Foreground="White" Margin="5" Width="70" Height="70" Style="{DynamicResource RoundButton}" Content="Dark theme" Click="Button_Click_1"/>
+                            <Button Background="Red" Foreground="White" Margin="5" Width="70" Height="70" Style="{DynamicResource RoundButton}" Content="Red theme" Click="Button_Click_2"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Button Background="Green" Foreground="White" Margin="5" Width="70" Height="70" Style="{DynamicResource RoundButton}" Content="Green theme" Click="Button_Click_3"/>
+                            <Button Background="Blue" Foreground="White" Margin="5" Width="70" Height="70" Style="{DynamicResource RoundButton}" Content="Blue theme" Click="Button_Click_4"/>
+                            <Button Margin="5" Width="70" Height="70" Style="{DynamicResource RoundButton}" Content="Close" Click="Button_Click_5"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+
+
+    </Grid>
+</Window>
